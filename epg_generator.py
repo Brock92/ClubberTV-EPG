@@ -12,7 +12,7 @@ def generate_epg():
     epg_template = f"""
 <?xml version="1.0" encoding="UTF-8"?>
 <tv>
-  <channel id="clubberTV">
+  <channel id="Clubber TV">
     <display-name>Clubber TV</display-name>
     <icon src="{channel_logo_url}" />
   </channel>
