@@ -35,7 +35,7 @@ def generate_epg():
     epg_template += "</tv>"
 
     # Write the XML file
-    xml_filename = f'epg_{today}.xml'
+    xml_filename = f'epg_{ClubberTV dummy}.xml'
     with open(xml_filename, 'w') as file:
         file.write(epg_template)
 
