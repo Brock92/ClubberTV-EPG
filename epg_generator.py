@@ -4,12 +4,16 @@ def generate_epg():
     # Get the current date
     today = datetime.datetime.now().strftime('%Y%m%d')
 
+    # URL for the channel logo
+    channel_logo_url = "https://image.pitchbook.com/nOBdkj7dXvZmfqa8DF7r1Jile831690277615997_200x200"  # Replace with your logo URL
+
     # Generate the repeating EPG for 7 days
-    epg_template = """
+    epg_template = f"""
 <?xml version="1.0" encoding="UTF-8"?>
 <tv>
   <channel id="clubberTV">
     <display-name>Clubber TV</display-name>
+    <icon src="{channel_logo_url}" />
   </channel>
     """
 
