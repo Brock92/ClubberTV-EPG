@@ -4,6 +4,9 @@ on:
   schedule:
     # Run the script every 3 days at midnight UTC
     - cron: "0 0 */3 * *"
+  
+  # This allows the workflow to be manually triggered
+  workflow_dispatch:
 
 jobs:
   generate-epg:
@@ -24,8 +27,8 @@ jobs:
 
       - name: Commit and push generated EPG
         run: |
-          git config --global user.email "adrian.lalor1@gmail.com"
-          git config --global user.name [user.name] "Brock92"
+          git config --global user.email "you@example.com"
+          git config --global user.name [user.name] "Your Name"
           git add .
           git commit -m "Update EPG"
           git push
