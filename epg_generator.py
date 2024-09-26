@@ -6,7 +6,7 @@ def generate_epg():
     today = datetime.datetime.now().strftime('%Y%m%d')
 
     # URL for the channel logo
-    channel_logo_url = "https://example.com/clubbertv-logo.png [example.com]"  # Replace with your logo URL
+    channel_logo_url = "https://image.pitchbook.com/nOBdkj7dXvZmfqa8DF7r1Jile831690277615997_200x200"  # Replace with your logo URL
 
     # Generate the repeating EPG for 7 days
     epg_template = f"""
@@ -35,12 +35,12 @@ def generate_epg():
     epg_template += "</tv>"
 
     # Write the XML file
-    xml_filename = f'epg_{ClubberTV dummy}.xml'
+    xml_filename = f'epg_{today}.xml'
     with open(xml_filename, 'w') as file:
         file.write(epg_template)
 
-    # Compress the XML file into a .gz file
-    gz_filename = f'epg_{today}.xml.gz'
+    # Compress the XML file into Clubber_TV_dummy.xml.gz
+    gz_filename = 'Clubber_TV_dummy.xml.gz'
     with open(xml_filename, 'rb') as f_in:
         with gzip.open(gz_filename, 'wb') as f_out:
             f_out.writelines(f_in)
