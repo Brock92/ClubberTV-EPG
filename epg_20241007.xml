@@ -1,0 +1,512 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="Clubber TV">
+    <display-name>Clubber TV</display-name>
+    <icon src="https://image.pitchbook.com/nOBdkj7dXvZmfqa8DF7r1Jile831690277615997_200x200" />
+  </channel>
+    
+  <programme start="20241007003757 +0000" stop="20241007023757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241007023757 +0000" stop="20241007043757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241007043757 +0000" stop="20241007063757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241007063757 +0000" stop="20241007083757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241007083757 +0000" stop="20241007103757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241007103757 +0000" stop="20241007123757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241007123757 +0000" stop="20241007143757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241007143757 +0000" stop="20241007163757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241007163757 +0000" stop="20241007183757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241007183757 +0000" stop="20241007203757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241007203757 +0000" stop="20241007223757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241007223757 +0000" stop="20241008003757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241008003757 +0000" stop="20241008023757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241008023757 +0000" stop="20241008043757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241008043757 +0000" stop="20241008063757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241008063757 +0000" stop="20241008083757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241008083757 +0000" stop="20241008103757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241008103757 +0000" stop="20241008123757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241008123757 +0000" stop="20241008143757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241008143757 +0000" stop="20241008163757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241008163757 +0000" stop="20241008183757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241008183757 +0000" stop="20241008203757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241008203757 +0000" stop="20241008223757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241008223757 +0000" stop="20241009003757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241009003757 +0000" stop="20241009023757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241009023757 +0000" stop="20241009043757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241009043757 +0000" stop="20241009063757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241009063757 +0000" stop="20241009083757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241009083757 +0000" stop="20241009103757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241009103757 +0000" stop="20241009123757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241009123757 +0000" stop="20241009143757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241009143757 +0000" stop="20241009163757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241009163757 +0000" stop="20241009183757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241009183757 +0000" stop="20241009203757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241009203757 +0000" stop="20241009223757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241009223757 +0000" stop="20241010003757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241010003757 +0000" stop="20241010023757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241010023757 +0000" stop="20241010043757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241010043757 +0000" stop="20241010063757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241010063757 +0000" stop="20241010083757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241010083757 +0000" stop="20241010103757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241010103757 +0000" stop="20241010123757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241010123757 +0000" stop="20241010143757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241010143757 +0000" stop="20241010163757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241010163757 +0000" stop="20241010183757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241010183757 +0000" stop="20241010203757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241010203757 +0000" stop="20241010223757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241010223757 +0000" stop="20241011003757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241011003757 +0000" stop="20241011023757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241011023757 +0000" stop="20241011043757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241011043757 +0000" stop="20241011063757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241011063757 +0000" stop="20241011083757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241011083757 +0000" stop="20241011103757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241011103757 +0000" stop="20241011123757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241011123757 +0000" stop="20241011143757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241011143757 +0000" stop="20241011163757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241011163757 +0000" stop="20241011183757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241011183757 +0000" stop="20241011203757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241011203757 +0000" stop="20241011223757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241011223757 +0000" stop="20241012003757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241012003757 +0000" stop="20241012023757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241012023757 +0000" stop="20241012043757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241012043757 +0000" stop="20241012063757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241012063757 +0000" stop="20241012083757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241012083757 +0000" stop="20241012103757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241012103757 +0000" stop="20241012123757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241012123757 +0000" stop="20241012143757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241012143757 +0000" stop="20241012163757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241012163757 +0000" stop="20241012183757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241012183757 +0000" stop="20241012203757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241012203757 +0000" stop="20241012223757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241012223757 +0000" stop="20241013003757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241013003757 +0000" stop="20241013023757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241013023757 +0000" stop="20241013043757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241013043757 +0000" stop="20241013063757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241013063757 +0000" stop="20241013083757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241013083757 +0000" stop="20241013103757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241013103757 +0000" stop="20241013123757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241013123757 +0000" stop="20241013143757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241013143757 +0000" stop="20241013163757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241013163757 +0000" stop="20241013183757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241013183757 +0000" stop="20241013203757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241013203757 +0000" stop="20241013223757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            
+  <programme start="20241013223757 +0000" stop="20241014003757 +0000" channel="clubberTV">
+    <title>Clubber TV</title>
+    <desc>GAA Action</desc>
+    <category>Sports</category>
+  </programme>
+            </tv>
