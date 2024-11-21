@@ -1,37 +1,54 @@
 import gzip
+import os
 import datetime
-from xml.etree.ElementTree import Element, SubElement, ElementTree
+from xml.etree.ElementTree import Element, SubElement, ElementTree, parse
 
-def create_epg(output_file):
-    # Define constants
+def load_existing_epg(file_path):
+    """Load existing EPG data from the .gz file, if available."""
+    if not os.path.exists(file_path):
+        return Element("tv")
+    
+    with gzip.open(file_path, "rb") as gz_file:
+        tree = parse(gz_file)
+        return tree.getroot()
+
+def save_epg(root, output_file):
+    """Save the EPG data back to the .gz file."""
+    with gzip.open(output_file, "wb") as gz_file:
+        tree = ElementTree(root)
+        tree.write(gz_file, encoding="utf-8", xml_declaration=True)
+
+def update_epg(output_file):
+    # Constants
     channel_id = "GAA"
     program_title = "Local GAA Matches"
     program_duration = datetime.timedelta(hours=2)
-    days = 7
-
-    # Create root element for the EPG
-    tv = Element("tv")
-    channel = SubElement(tv, "channel", id=channel_id)
-    SubElement(channel, "display-name").text = "GAA Channel"
-
-    # Generate programs for 7 days
-    start_time = datetime.datetime.now().replace(minute=0, second=0, microsecond=0)
-    end_time = start_time + datetime.timedelta(days=days)
-
+    
+    # Load existing EPG
+    epg = load_existing_epg(output_file)
+    existing_programs = epg.findall(f"./programme[@channel='{channel_id}']")
+    
+    # Determine the start time for new programs
+    if existing_programs:
+        last_program = existing_programs[-1]
+        start_time = datetime.datetime.strptime(last_program.get("stop").split()[0], "%Y%m%d%H%M%S")
+    else:
+        # If no programs exist, start from the current time
+        start_time = datetime.datetime.now().replace(minute=0, second=0, microsecond=0)
+    
+    # Add programs for one day
+    end_time = start_time + datetime.timedelta(days=1)
     while start_time < end_time:
-        programme = SubElement(tv, "programme", start=start_time.strftime("%Y%m%d%H%M%S +0000"),
+        programme = SubElement(epg, "programme", start=start_time.strftime("%Y%m%d%H%M%S +0000"),
                                stop=(start_time + program_duration).strftime("%Y%m%d%H%M%S +0000"),
                                channel=channel_id)
         SubElement(programme, "title").text = program_title
         start_time += program_duration
 
-    # Save XML data to a .gz file
-    with gzip.open(output_file, "wb") as gz_file:
-        tree = ElementTree(tv)
-        tree.write(gz_file, encoding="utf-8", xml_declaration=True)
+    # Save updated EPG
+    save_epg(epg, output_file)
+    print(f"EPG updated successfully in '{output_file}'.")
 
-# Specify output file
+# Specify the output file
 output_file = "epg.xml.gz"
-create_epg(output_file)
-
-print(f"EPG file '{output_file}' created successfully.")
+update_epg(output_file)
