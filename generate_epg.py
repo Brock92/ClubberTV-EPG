@@ -9,7 +9,7 @@ def generate_epg():
     
     # Channel configuration
     channel_id = "GAA"
-    channel_name = "Clubber TV"
+    channel_name = "ClubberTV.ie"
     programme_title = "Local GAA Matches"
     
     # Add the channel to the EPG
