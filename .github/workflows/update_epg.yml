@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Ensure full history is available for rebasing
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -20,17 +22,18 @@ jobs:
       - name: Generate EPG
         run: python generate_epg.py
 
-      - name: Stage and commit changes
+      - name: Commit changes locally
         run: |
           git config --global user.email adrian.lalor1@gmail.com
           git config --global user.name [user.name] "Brock92"
           git add Clubber_tv.xml Clubber_tv.xml.gz
           git commit -m "Staging EPG updates" || echo "No changes to commit"
 
-      - name: Pull latest changes
+      - name: Pull latest changes and resolve conflicts
         run: |
-          git pull --rebase origin main
+          git fetch origin
+          git merge --strategy-option=theirs origin/main || echo "Conflicts resolved using 'theirs' strategy"
 
-      - name: Final commit and push changes
+      - name: Push final changes
         run: |
           git push || echo "No changes to push"
