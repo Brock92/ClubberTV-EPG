@@ -1,50 +1,37 @@
 import gzip
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
+import datetime
 
+# Function to generate the EPG data
 def generate_epg():
-    # Root XML element
-    tv = ET.Element("tv")
-    tv.set("generator-info-name", "Clubber TV Dummy EPG")
-    
-    # Channel configuration
-    channel_id = "ClubberTV.ie"
-    channel_name = "ClubberTV.ie"
-    programme_title = "Local GAA Matches"
-    
-    # Add the channel to the EPG
-    channel = ET.SubElement(tv, "channel", id=channel_id)
-    display_name = ET.SubElement(channel, "display-name")
-    display_name.text = channel_name
+    now = datetime.datetime.now()
+    end_date = now + datetime.timedelta(days=7)
+    epg = """<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="ClubberTV.ie">
+    <display-name>Clubber TV</display-name>
+    <desc>Local GAA action</desc>
+  </channel>
+"""
+    current_time = now
+    while current_time < end_date:
+        start_time = current_time.strftime("%Y%m%d%H%M%S %z")
+        end_time = (current_time + datetime.timedelta(hours=2)).strftime("%Y%m%d%H%M%S %z")
+        epg += f"""
+  <programme start="{start_time}" stop="{end_time}" channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+"""
+        current_time += datetime.timedelta(hours=2)
 
-    # Start time for the schedule (current day at midnight)
-    start_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-    end_time = start_time + timedelta(days=7)  # Generate for 7 days
+    epg += "</tv>"
+    return epg
 
-    # Add programmes every 2 hours
-    current_time = start_time
-    while current_time < end_time:
-        programme = ET.SubElement(tv, "programme", channel=channel_id)
-        programme.set("start", current_time.strftime("%Y%m%d%H%M%S") + " +0000")
-        programme.set("stop", (current_time + timedelta(hours=2)).strftime("%Y%m%d%H%M%S") + " +0000")
-        
-        # Add programme title
-        title = ET.SubElement(programme, "title")
-        title.text = programme_title
-        
-        # Move to the next programme slot
-        current_time += timedelta(hours=2)
+# Write to Clubber_tv.xml
+with open("Clubber_tv.xml", "w") as xml_file:
+    xml_file.write(generate_epg())
 
-    # Save the EPG to XML and compressed formats
-    # Save as Clubber_TV.xml
-    tree = ET.ElementTree(tv)
-    with open("Clubber_TV.xml", "wb") as xml_file:
-        tree.write(xml_file, encoding="utf-8", xml_declaration=True)
-
-    # Save as Clubber_TV_dummy.xml.gz
-    with gzip.open("Clubber_TV_dummy.xml.gz", "wt", encoding="utf-8") as gz_file:
-        tree.write(gz_file, encoding="unicode")
-
-# Run the function
-if __name__ == "__main__":
-    generate_epg()
+# Compress and write to Clubber_tv.xml.gz
+with open("Clubber_tv.xml", "rb") as xml_file:
+    with gzip.open("Clubber_tv.xml.gz", "wb") as gz_file:
+        gz_file.writelines(xml_file)
