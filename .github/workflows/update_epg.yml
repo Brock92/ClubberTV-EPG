@@ -17,9 +17,6 @@ jobs:
         with:
           python-version: "3.9"
 
-      - name: Install dependencies
-        run: pip install gzip
-
       - name: Generate EPG
         run: python generate_epg.py
 
@@ -30,3 +27,5 @@ jobs:
           git add Clubber_tv.xml Clubber_tv.xml.gz
           git commit -m "Update EPG data"
           git push
+
+         
