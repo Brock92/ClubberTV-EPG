@@ -1,1 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="ClubberTV.ie">
+    <display-name>Clubber TV</display-name>
+    <desc>Local GAA action</desc>
+  </channel>
 
+  <programme start="20241122081930 " stop="20241122101930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241122101930 " stop="20241122121930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241122121930 " stop="20241122141930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241122141930 " stop="20241122161930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241122161930 " stop="20241122181930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241122181930 " stop="20241122201930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241122201930 " stop="20241122221930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241122221930 " stop="20241123001930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241123001930 " stop="20241123021930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241123021930 " stop="20241123041930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241123041930 " stop="20241123061930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241123061930 " stop="20241123081930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241123081930 " stop="20241123101930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241123101930 " stop="20241123121930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241123121930 " stop="20241123141930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241123141930 " stop="20241123161930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241123161930 " stop="20241123181930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241123181930 " stop="20241123201930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241123201930 " stop="20241123221930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241123221930 " stop="20241124001930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241124001930 " stop="20241124021930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241124021930 " stop="20241124041930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241124041930 " stop="20241124061930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241124061930 " stop="20241124081930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241124081930 " stop="20241124101930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241124101930 " stop="20241124121930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241124121930 " stop="20241124141930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241124141930 " stop="20241124161930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241124161930 " stop="20241124181930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241124181930 " stop="20241124201930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241124201930 " stop="20241124221930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241124221930 " stop="20241125001930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241125001930 " stop="20241125021930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241125021930 " stop="20241125041930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241125041930 " stop="20241125061930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241125061930 " stop="20241125081930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241125081930 " stop="20241125101930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241125101930 " stop="20241125121930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241125121930 " stop="20241125141930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241125141930 " stop="20241125161930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241125161930 " stop="20241125181930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241125181930 " stop="20241125201930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241125201930 " stop="20241125221930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241125221930 " stop="20241126001930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241126001930 " stop="20241126021930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241126021930 " stop="20241126041930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241126041930 " stop="20241126061930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241126061930 " stop="20241126081930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241126081930 " stop="20241126101930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241126101930 " stop="20241126121930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241126121930 " stop="20241126141930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241126141930 " stop="20241126161930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241126161930 " stop="20241126181930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241126181930 " stop="20241126201930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241126201930 " stop="20241126221930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241126221930 " stop="20241127001930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241127001930 " stop="20241127021930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241127021930 " stop="20241127041930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241127041930 " stop="20241127061930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241127061930 " stop="20241127081930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241127081930 " stop="20241127101930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241127101930 " stop="20241127121930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241127121930 " stop="20241127141930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241127141930 " stop="20241127161930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241127161930 " stop="20241127181930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241127181930 " stop="20241127201930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241127201930 " stop="20241127221930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241127221930 " stop="20241128001930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241128001930 " stop="20241128021930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241128021930 " stop="20241128041930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241128041930 " stop="20241128061930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241128061930 " stop="20241128081930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241128081930 " stop="20241128101930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241128101930 " stop="20241128121930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241128121930 " stop="20241128141930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241128141930 " stop="20241128161930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241128161930 " stop="20241128181930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241128181930 " stop="20241128201930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241128201930 " stop="20241128221930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241128221930 " stop="20241129001930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241129001930 " stop="20241129021930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241129021930 " stop="20241129041930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241129041930 " stop="20241129061930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+
+  <programme start="20241129061930 " stop="20241129081930 " channel="ClubberTV.ie">
+    <title>Clubber TV</title>
+    <desc>Local GAA action</desc>
+  </programme>
+</tv>
